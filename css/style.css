@@ -2,6 +2,7 @@
 #container {
     margin: 0 auto;
     background-position: center;
+    width: 1010px;
 }
 body{
     margin: 0 auto;
@@ -9,8 +10,8 @@ body{
 
 /* logo */
 
-header{
-    padding-top: 50px;
+.intestazione{
+    padding-top: 25px;
     background-image: url("../img/pattern.png");
     background-size: 30%;
     background-color: rgba(68, 136, 214, 0.5)
@@ -18,7 +19,8 @@ header{
 
 #logo{
     height: 50px;
-    margin-left: 2px;
+    padding-left: 443px;
+    padding-bottom: 25px;;
 }
 
 /* articolo */
