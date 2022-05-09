@@ -55,3 +55,45 @@ figure {
     font-size: 12px;
     font-weight: bold;
 }
+
+.evidenziato{
+    background-color: yellow;
+}
+
+/* tabella */
+
+table {
+    border-collapse: collapse
+}
+
+th {
+    color: white;
+    font-weight: bold;
+    background-color: #03a9f4;
+}
+
+.celeste {
+    background-color: rgba(1, 195, 243, 0.192);
+}
+
+/* pi+ di pagina */
+
+h4 {
+    color: grey;
+}
+
+#immagine1{
+    background-image: url(../img/monitor.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+#immagine2{
+    background-image: url(../img/graph.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+strong {
+    color: white;
+}
