@@ -6,8 +6,52 @@ body{
 
 /* logo */
 
-#logo {
-    height: 100px;;
-    background-image: url("img/pattern.png");
-    background-size: cover;
+header{
+    height: 150px;
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
+    background-color: rgba(68, 136, 214, 0.5)
+}
+
+#logo{
+    width: 10%;
+    background-position: center;
+}
+
+/* articolo */
+
+#intestazione {
+    padding-top: 25px;
+}
+
+#titolo{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#sottotitolo {
+    font-weight: bold;
+    color: grey;
+
+}
+#booleaner {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+#data {
+    font-size: 11px;
+    color: grey;
+}
+
+figure {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.descrizione {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
 }
